@@ -53,7 +53,8 @@ class App extends Component {
   setSearch = ({ q }) => {
     this.setState({
       q,
-      page: 1
+      page: 1,
+      items: []
     })
   };
 
