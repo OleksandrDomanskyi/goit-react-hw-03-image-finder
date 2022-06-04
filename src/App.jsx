@@ -92,7 +92,7 @@ class App extends Component {
         {!loading && Boolean(items.length) && <Button onClick={loadMore} text='Load More' />}
         {isModalOpen && (
           <Modal close={closeModal}>
-            <img src={modalBody} alt="big photo" />
+            <img src={modalBody} alt="" />
           </Modal>
         )}
       </div>

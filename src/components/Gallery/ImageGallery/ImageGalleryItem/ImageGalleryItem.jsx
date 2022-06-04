@@ -5,7 +5,7 @@ import styles from './image-gallery-item.module.scss';
 const ImageGalleryItem = ({url, onClick}) => {
     return (
         <li className={styles.item} onClick={onClick}>
-            <img className={styles.image} src={url} alt="little photo" />
+            <img className={styles.image} src={url} alt="" />
         </li>
     )
 };
