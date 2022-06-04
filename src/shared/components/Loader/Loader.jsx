@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { TripleMaze } from 'react-spinner-animated';
 
-import 'react-spinner-animated/dist/index.scss';
+import 'react-spinner-animated/dist/index.css';
 
 class Loader extends Component {
     render() {
